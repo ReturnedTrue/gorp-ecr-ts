@@ -1,7 +1,7 @@
 {
   "name": "@rbxts/gorp-ecr",
   "version": "0.2.0-ts.0",
-  "description": "ecr support for gorp",
+  "description": "gorp ecr layer",
   "repository": {
     "type": "git",
     "url": "https://github.com/ReturnedTrue/gorp-ecr-ts"
