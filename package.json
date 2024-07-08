@@ -1,0 +1,29 @@
+{
+  "name": "@rbxts/gorp-ecr",
+  "version": "0.2.0-ts.0",
+  "description": "ecr support for gorp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReturnedTrue/gorp-ecr-ts"
+  },
+  "main": "src/main.lua",
+  "types": "src/gorp_ecr.d.ts",
+  "keywords": [],
+  "license": "MIT",
+  "files": [
+    "src",
+    "LICENSE.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.3.0-types.1",
+    "@rbxts/types": "^1.0.788",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@rbxts/ecr": "^0.8.0-ts.0",
+    "@rbxts/gorp": "file:../gorp-ts/rbxts-gorp-0.2.0-ts.0.tgz"
+  }
+}
